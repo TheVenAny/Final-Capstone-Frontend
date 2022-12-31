@@ -1,0 +1,31 @@
+.DraftEditor-root {
+    border: 1px solid rgb(113, 152, 175);
+    padding: 20px;
+    // height: 50vh;
+    // width: 70vw;
+    border-radius: 3px;
+}
+
+.rdw-embedded-modal {
+    left: -215px;
+}
+
+.rdw-emoji-modal {
+    left: -169px;
+}
+
+.rdw-dropdown-wrapper {
+    // background-color: red;
+}
+.rdw-list-dropdown {
+background-color: blue;
+display: none;
+}
+.rdw-text-align-dropdown {
+    background-color: pink;
+    display: none;
+    }
+
+.demo-editor-hide {
+    display: none;
+}

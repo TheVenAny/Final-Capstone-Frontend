@@ -1,0 +1,53 @@
+
+
+.article-btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+
+    .article-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45vw;
+        height: 50px;
+        // border: 1px solid blue;
+
+        button {
+            width: 90%;
+            height: 80%;
+            background-color: transparent;
+            border: 1px solid green;
+            border-radius: 3px;
+            font-size: 19;
+
+            &:hover {
+                background-color: rgb(85, 223, 85);
+                font-weight: 900;
+                cursor: pointer;                
+
+            }
+
+        }
+        #delete_btn {
+            width: 90%;
+            height: 80%;
+            background-color: transparent;
+            border: 1px solid rgba(158, 33, 33, 0.654);
+            border-radius: 3px;
+            font-size: 19;
+
+            &:hover {
+                background-color: rgba(167, 100, 127, 0.532);
+                font-weight: 900;
+                cursor: pointer;                
+
+            }
+
+        }
+    }
+
+}

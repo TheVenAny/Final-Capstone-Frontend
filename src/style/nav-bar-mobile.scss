@@ -1,0 +1,81 @@
+.nav-bar-mobile-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+
+
+    .nav-bar-btn-wrapper {
+        
+        @include navigation-wrapper();
+
+
+        .nav-bar-btn {
+            display: flex;
+            justify-content: flex-start;
+            width: 90%;
+            // border: 1px solid red;
+
+            #mobile-menu_icon {
+                font-size: 25px;
+
+                &:hover {
+                    color: rgba(4, 99, 166, 0.919);
+                }
+            }
+        }
+    }
+
+
+
+
+    .nav-bar-mobile {
+        display: none; 
+        flex-direction: column;   
+        justify-content: space-around; 
+        width: 100vw;
+        height: 60vw;
+        top: 30px;
+        left: 0px;
+        padding: 20px 20px;
+        background-color: rgba(255, 255, 255, 0.949); 
+
+
+        .nav-bar-main-menu {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;  
+            justify-content: space-evenly;
+            // border: 1px solid red;
+            // height: 20vh;
+
+            .nav-link {
+                font-size: 17px;
+                font-weight: 700;
+                margin-bottom: 20px;
+                // border: 1px solid rgb(6, 25, 58);
+
+            }
+
+            @include navigation-link();
+
+            .nav-link-active {
+                border-bottom: 0.5px solid green;
+                color: rgba(90, 111, 90, 0.877);
+            }
+        }
+
+        .nav-bar-accunt-menu {
+            // border: 1px solid red;
+
+            @include navigation-link();
+
+            .nav-link-active {
+                border-bottom: 0.5px solid green;
+                color: rgb(90, 111, 90, 0.80);
+            }
+        }
+
+    }
+}

@@ -1,0 +1,41 @@
+.nav-bar-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    // border: 1px solid red;
+    @include navigation-wrapper();
+
+
+    .nav-bar-left {
+        display: flex;
+        justify-content: flex-start;        
+        width: 60vw;
+        margin-left: 25px;
+        // border: 1px solid green;
+
+        @include navigation-link();
+
+
+    }
+
+    .nav-bar-right {
+        display: flex;
+        justify-content: flex-end;   
+        width: 30vw; 
+        margin-right: 120px;
+        // border: 1px solid blue;
+
+        @include navigation-link();
+
+    }
+
+    .nav-link-active {
+        border-bottom: 0.5px solid green;
+        color: rgb(90, 111, 90, 0.80);
+
+        &:hover {
+            // border-bottom: 0.5px solid transparent;
+        }
+    }
+
+
+}

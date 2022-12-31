@@ -1,0 +1,17 @@
+.text-area-container {
+    display: flex;
+    justify-content: center;
+
+    #home_text_area {
+        height: 50vh;
+        width: 70vw;
+        
+        
+
+        &:focus {
+            border: 1px solid transparent;
+            text-decoration: none;
+        }
+        
+    }
+}
