@@ -1,5 +1,13 @@
-# React/Redux/Router Starter Project
+# Final Capstone Project
 
-> Provided for the students of the [Bottega Code School](https://bottega.tech/)
 
-*Fork from [es6-webpack2-starter](https://github.com/micooz/es6-webpack2-starter)*
+###### Reid2MeLibéré ###### 
+
+
+* The main purpose of the app is to be a personal digital library where users can save books and articles
+
+Basic Functions: 
+•	Store reading material.
+•	Have the text read.  
+
+ > ENJOY! 
