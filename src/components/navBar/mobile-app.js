@@ -117,7 +117,7 @@ componentDidMount(){
             </div>
           </div>
 
-          <div className='nav-bar-accunt-menu'>
+          <div className='nav-bar-account-menu'>
             {this.state.logged_in===false?(
             <div className="nav-link">
               <NavLink to="/auth" activeClassName='nav-link-active'>Sign In</NavLink>
@@ -135,7 +135,8 @@ componentDidMount(){
                 }
               }
               >
-                { `${this.state.email}  Sign Out`}
+                { `Signed in as: ${this.state.email} 
+                \n  ---- Sign Out`}
               </NavLink>
             </div>
             )}

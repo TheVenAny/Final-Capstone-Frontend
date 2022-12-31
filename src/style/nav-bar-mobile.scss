@@ -35,7 +35,7 @@
         flex-direction: column;   
         justify-content: space-around; 
         width: 100vw;
-        height: 60vw;
+        height: 75vw;
         top: 30px;
         left: 0px;
         padding: 20px 20px;
@@ -50,6 +50,8 @@
             // border: 1px solid red;
             // height: 20vh;
 
+            @include navigation-link();
+
             .nav-link {
                 font-size: 17px;
                 font-weight: 700;
@@ -58,7 +60,6 @@
 
             }
 
-            @include navigation-link();
 
             .nav-link-active {
                 border-bottom: 0.5px solid green;
@@ -66,10 +67,26 @@
             }
         }
 
-        .nav-bar-accunt-menu {
+        .nav-bar-account-menu {
+            @include navigation-link();
+
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column; 
+            // height: 20vh;
             // border: 1px solid red;
 
-            @include navigation-link();
+            .nav-link {
+                font-size: 17px;
+                font-weight: 700;
+                margin-bottom: 20px; 
+                // border: 1px solid rgb(6, 25, 58);
+
+                a {
+                    width: 50%;
+                }
+            }
+
 
             .nav-link-active {
                 border-bottom: 0.5px solid green;
